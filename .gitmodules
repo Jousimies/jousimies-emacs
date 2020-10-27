@@ -1,3 +1,15 @@
 [submodule "site-lisp/extensions/evil"]
 	path = site-lisp/extensions/evil
 	url = https://github.com/emacs-evil/evil.git
+[submodule "site-lisp/extensions/all-the-icons.el"]
+	path = site-lisp/extensions/all-the-icons.el
+	url = https://github.com/domtronn/all-the-icons.el.git
+[submodule "site-lisp/extensions/auto-save"]
+	path = site-lisp/extensions/auto-save
+	url = https://github.com/manateelazycat/auto-save.git
+[submodule "site-lisp/extensions/awesome-tray"]
+	path = site-lisp/extensions/awesome-tray
+	url = https://github.com/manateelazycat/awesome-tray.git
+[submodule "site-lisp/extensions/benchmark-init-el"]
+	path = site-lisp/extensions/benchmark-init-el
+	url = https://github.com/dholm/benchmark-init-el.git
