@@ -1,6 +1,7 @@
 新建.emacs。
 添加
-'''
+
+'''Elisp
 (defun add-subdirs-to-load-path (dir)
     "Recursive add directories to `load-path'."
       (let ((default-directory (file-name-as-directory dir)))
