@@ -39,6 +39,8 @@
     (require 'ivy)
     (require 'counsel)
     ;;(require 'magit)
+    (require 'init-org)
+    (require 'init-bibtex)
 
 
 

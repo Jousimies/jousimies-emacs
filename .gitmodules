@@ -40,3 +40,33 @@
 [submodule "site-lisp/extensions/valign"]
 	path = site-lisp/extensions/valign
 	url = https://github.com/casouri/valign.git
+[submodule "site-lisp/extensions/org-ref"]
+	path = site-lisp/extensions/org-ref
+	url = https://github.com/jkitchin/org-ref.git
+[submodule "site-lisp/extensions/helm-bibtex"]
+	path = site-lisp/extensions/helm-bibtex
+	url = https://github.com/tmalsburg/helm-bibtex.git
+[submodule "site-lisp/extensions/helm"]
+	path = site-lisp/extensions/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "site-lisp/extensions/emacs-async"]
+	path = site-lisp/extensions/emacs-async
+	url = https://github.com/jwiegley/emacs-async.git
+[submodule "site-lisp/extensions/parsebib"]
+	path = site-lisp/extensions/parsebib
+	url = https://github.com/joostkremers/parsebib.git
+[submodule "site-lisp/extensions/s.el"]
+	path = site-lisp/extensions/s
+	url = https://github.com/magnars/s.el.git
+[submodule "site-lisp/extensions/f.el"]
+	path = site-lisp/extensions/f
+	url = https://github.com/rejeep/f.el.git
+[submodule "site-lisp/extensions/biblio.el"]
+	path = site-lisp/extensions/biblio
+	url = https://github.com/cpitclaudel/biblio.el.git
+[submodule "site-lisp/extensions/emacs-htmlize"]
+	path = site-lisp/extensions/emacs-htmlize
+	url = https://github.com/hniksic/emacs-htmlize.git
+[submodule "site-lisp/extensions/lazy-load"]
+	path = site-lisp/extensions/lazy-load
+	url = https://github.com/manateelazycat/lazy-load.git
