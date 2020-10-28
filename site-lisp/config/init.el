@@ -42,6 +42,7 @@
     (require 'init-org)
     (require 'init-bibtex)
     (require 'init-latexstyle)
+    (require 'init-dired)
 
 
 
