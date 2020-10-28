@@ -28,3 +28,9 @@
 [submodule "site-lisp/extensions/magit"]
 	path = site-lisp/extensions/magit
 	url = https://github.com/magit/magit.git
+[submodule "site-lisp/extensions/transient"]
+	path = site-lisp/extensions/transient
+	url = https://github.com/magit/transient.git
+[submodule "site-lisp/extensions/with-editor"]
+	path = site-lisp/extensions/with-editor
+	url = https://github.com/magit/with-editor.git

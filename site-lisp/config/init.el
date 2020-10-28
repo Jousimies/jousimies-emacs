@@ -38,7 +38,7 @@
     (require 'init-key)
     (require 'ivy)
     (require 'counsel)
-    (require 'magit)
+    ;;(require 'magit)
 
 
 
