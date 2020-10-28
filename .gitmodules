@@ -25,3 +25,6 @@
 [submodule "site-lisp/extensions/general.el"]
 	path = site-lisp/extensions/general
 	url = https://github.com/noctuid/general.el.git
+[submodule "site-lisp/extensions/magit"]
+	path = site-lisp/extensions/magit
+	url = https://github.com/magit/magit.git
