@@ -31,7 +31,7 @@
     (require 'init-backup)
     (require 'init-line-number)
     (require 'init-auto-save)
-    ;;(require 'lazy-load)
+    (require 'lazy-load)
     ;;(require 'one-key)
     ;;(require 'awesome-pair)
     ;;(require 'init-git)
@@ -41,6 +41,7 @@
     ;;(require 'magit)
     (require 'init-org)
     (require 'init-bibtex)
+    (require 'init-latexstyle)
 
 
 

@@ -14,5 +14,22 @@
 (setq bibtex-completion-pdf-symbol "P")
 (setq bibtex-completion-notes-symbol "N")
 
+(setq bibtex-completion-display-formats
+      '((t . "${author:10} ${year:4} ${=has-pdf=:1} ${=has-note=:1} ${=type=:7} ${title:*}")))
+
+(setq org-ref-bibliography-notes "~/Nextcloud/W.PhD.20170901.Bibliography/ReferenceReadingNotes.org"
+      org-ref-default-bibliography '("~/Nextcloud/W.PhD.20170901.Bibliography/Reference.bib")
+      org-ref-pdf-directory "~/Nextcloud/W.PhD.20170901.Bibliography/PDFs/")
+(setq org-ref-show-broken-links nil)
+(setq bibtex-completion-pdf-open-function 'org-open-file)
+
+(defun my/org-ref-notes-function (candidates)
+    (let ((key (helm-marked-candidates)))
+          (funcall org-ref-notes-function (car key))))
+
+(helm-delete-action-from-source "Edit notes" helm-source-bibtex)
+(helm-add-action-to-source "Edit notes" 'my/org-ref-notes-function helm-source-bibtex 7)
+
+
 
 (provide 'init-bibtex)
