@@ -13,3 +13,6 @@
 [submodule "site-lisp/extensions/benchmark-init-el"]
 	path = site-lisp/extensions/benchmark-init-el
 	url = https://github.com/dholm/benchmark-init-el.git
+[submodule "site-lisp/extensions/hydra"]
+	path = site-lisp/extensions/hydra
+	url = https://github.com/abo-abo/hydra.git
