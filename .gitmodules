@@ -34,3 +34,9 @@
 [submodule "site-lisp/extensions/with-editor"]
 	path = site-lisp/extensions/with-editor
 	url = https://github.com/magit/with-editor.git
+[submodule "site-lisp/extensions/org-pomodoro"]
+	path = site-lisp/extensions/org-pomodoro
+	url = https://github.com/marcinkoziej/org-pomodoro.git
+[submodule "site-lisp/extensions/valign"]
+	path = site-lisp/extensions/valign
+	url = https://github.com/casouri/valign.git
