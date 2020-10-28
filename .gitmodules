@@ -91,3 +91,12 @@
 [submodule "site-lisp/extensions/alert"]
 	path = site-lisp/extensions/alert
 	url = https://github.com/jwiegley/alert.git
+[submodule "site-lisp/extensions/emacs-smart-input-source"]
+	path = site-lisp/extensions/emacs-smart-input-source
+	url = https://github.com/laishulu/emacs-smart-input-source.git
+[submodule "site-lisp/extensions/emacs-which-key"]
+	path = site-lisp/extensions/emacs-which-key
+	url = https://github.com/justbur/emacs-which-key.git
+[submodule "site-lisp/extensions/rainbow-delimiters"]
+	path = site-lisp/extensions/rainbow-delimiters
+	url = https://github.com/Fanael/rainbow-delimiters.git

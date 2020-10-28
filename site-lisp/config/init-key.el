@@ -4,6 +4,12 @@
 (require 'yasnippet)
 (require 'ace-window)
 (require 'restart-emacs)
+(require 'which-key)
+
+(setq which-key-idle-delay 0.4         
+      which-key-sort-order 'which-key-key-order-alpha)   
+(which-key-mode t)
+
 (setq evil-want-integration t) ;; This is optional since it's already set to t by default.
 (setq evil-want-keybinding nil)
 (setq-default

@@ -43,6 +43,7 @@
     (require 'init-bibtex)
     (require 'init-latexstyle)
     (require 'init-dired)
+    (require 'init-sis)
 
 
 
