@@ -2,7 +2,7 @@
 	path = site-lisp/extensions/evil
 	url = https://github.com/emacs-evil/evil.git
 [submodule "site-lisp/extensions/all-the-icons.el"]
-	path = site-lisp/extensions/all-the-icons.el
+	path = site-lisp/extensions/all-the-icons
 	url = https://github.com/domtronn/all-the-icons.el.git
 [submodule "site-lisp/extensions/auto-save"]
 	path = site-lisp/extensions/auto-save
@@ -76,3 +76,6 @@
 [submodule "site-lisp/extensions/restart-emacs"]
 	path = site-lisp/extensions/restart-emacs
 	url = https://github.com/iqbalansari/restart-emacs.git
+[submodule "site-lisp/extensions/emacs-memoize"]
+	path = site-lisp/extensions/emacs-memoize
+	url = https://github.com/skeeto/emacs-memoize.git
