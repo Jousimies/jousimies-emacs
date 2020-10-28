@@ -100,3 +100,6 @@
 [submodule "site-lisp/extensions/rainbow-delimiters"]
 	path = site-lisp/extensions/rainbow-delimiters
 	url = https://github.com/Fanael/rainbow-delimiters.git
+[submodule "site-lisp/extensions/libegit2"]
+	path = site-lisp/extensions/libegit2
+	url = https://github.com/magit/libegit2.git
