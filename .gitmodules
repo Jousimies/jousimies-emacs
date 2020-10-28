@@ -79,3 +79,15 @@
 [submodule "site-lisp/extensions/emacs-memoize"]
 	path = site-lisp/extensions/emacs-memoize
 	url = https://github.com/skeeto/emacs-memoize.git
+[submodule "site-lisp/extensions/ace-window"]
+	path = site-lisp/extensions/ace-window
+	url = https://github.com/abo-abo/ace-window.git
+[submodule "site-lisp/extensions/window-numbering.el"]
+	path = site-lisp/extensions/window-numbering
+	url = https://github.com/nschum/window-numbering.el.git
+[submodule "site-lisp/extensions/avy"]
+	path = site-lisp/extensions/avy
+	url = https://github.com/abo-abo/avy.git
+[submodule "site-lisp/extensions/alert"]
+	path = site-lisp/extensions/alert
+	url = https://github.com/jwiegley/alert.git

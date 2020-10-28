@@ -2,6 +2,7 @@
 (require 'hydra)
 (require 'general)
 (require 'yasnippet)
+(require 'ace-window)
 (require 'restart-emacs)
 (setq evil-want-integration t) ;; This is optional since it's already set to t by default.
 (setq evil-want-keybinding nil)
@@ -88,12 +89,12 @@ _r_ : RevertBuffer
 
 (defhydra hydra-org (:color red :hint nil :columns nil)
 	    "
-	    ^Agenda^             ^Other^      
+	    ^Agenda^             ^Other^
 	    -----------------------------------
 	    _e_ : Dispatch         _v_ : Preview
-	    _c_ : Capture     
-	    _i_ : ClockIn     
-	    _o_ : ClockOut	  
+	    _c_ : Capture
+	    _i_ : ClockIn
+	    _o_ : ClockOut
 	    "
 	    ("c" org-capture :exit t)
 	    ("e" org-export-dispatch :exit t)
@@ -152,10 +153,6 @@ _r_ : RevertBuffer
   :states '(normal insert visual emacs))
 (my-space-leader-def
  "SPC" 'counsel-M-x
- "1"   'select-window-1
- "2"   'select-window-2
- "3"   'select-window-3
- "4"   'select-window-4
  "b"   'hydra-buffer/body
  "f"   'hydra-file/body
  "c"   'hydra-counsel/body
@@ -165,10 +162,11 @@ _r_ : RevertBuffer
  "r"   'restart-emacs
  "w"   'hydra-window/body
  "y"   'hydra-yasnippet/body
+ "o"   'hydra-org/body
 
 
  )
-
+(global-set-key (kbd "<f12>") 'org-agenda)
 
 (set-register ?j '(file . "~/Nextcloud/W.PhD.20200424.Research/ResearchJournal.org"))
 (set-register ?l '(file . "~/Nextcloud/W.PhD.20200424.Research/LabBook.org"))
