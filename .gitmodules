@@ -16,3 +16,6 @@
 [submodule "site-lisp/extensions/hydra"]
 	path = site-lisp/extensions/hydra
 	url = https://github.com/abo-abo/hydra.git
+[submodule "site-lisp/extensions/swiper"]
+	path = site-lisp/extensions/swiper
+	url = https://github.com/abo-abo/swiper.git
