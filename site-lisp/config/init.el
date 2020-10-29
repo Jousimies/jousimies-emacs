@@ -34,7 +34,7 @@
     (require 'lazy-load)
     ;;(require 'one-key)
     ;;(require 'awesome-pair)
-    ;;(require 'init-git)
+    (require 'init-git)
     (require 'init-key)
     (require 'ivy)
     (require 'counsel)
